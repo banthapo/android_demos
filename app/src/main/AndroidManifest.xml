@@ -13,20 +13,30 @@
         android:theme="@style/Theme.AndroidDemos"
         tools:targetApi="31">
         <activity
-            android:name=".RadioBtn"
+            android:name=".CordLayout"
             android:exported="false" />
         <activity
-            android:name=".Checkbox"
+            android:name=".LinLayout"
+            android:exported="false" />
+        <activity
+            android:name=".RelLayout"
+            android:exported="false" />
+        <activity
+            android:name=".RadioBtn"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            />
         </activity>
         <activity
+            android:name=".Checkbox"
+            android:exported="false" />
+        <activity
             android:name=".EventsFromUI"
-            android:exported="false"></activity>
+            android:exported="false" />
         <activity
             android:name=".EventsByImplementation"
             android:exported="false" />

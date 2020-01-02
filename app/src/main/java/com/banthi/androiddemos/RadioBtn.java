@@ -2,6 +2,7 @@ package com.banthi.androiddemos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.view.View;
@@ -53,11 +54,16 @@ public class RadioBtn extends AppCompatActivity {
                             progressLinear.incrementProgressBy(10);
                             SystemClock.sleep(600);
                         }
+
                         try {
                             progressCircular.setVisibility(View.GONE);
+
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
+                        SystemClock.sleep(800);
+                        Intent intent = new Intent(RadioBtn.this, RelLayout.class);
+                        startActivity(intent);
                     }
                 });
                 t.start();
