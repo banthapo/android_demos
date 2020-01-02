@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidDemos"
         tools:targetApi="31">
         <activity
+            android:name=".Images"
+            android:exported="false" />
+        <activity
             android:name=".CordLayout"
             android:exported="false" />
         <activity
