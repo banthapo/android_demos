@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    android:padding="30dp"
+    tools:context=".Checkbox">
+
+    <RelativeLayout
+        android:id="@+id/carsBlandLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/orange"
+        android:minHeight="250dp"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/car_selection_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="Select your favourite car bland"
+            android:textColor="@color/dark_green"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/bmw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/benz"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:checked="true"
+            android:paddingHorizontal="2dp"
+            android:text="@string/bmw"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/benz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bmw"
+            android:layout_centerInParent="true"
+            android:paddingHorizontal="2dp"
+            android:text="@string/benz"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/hundai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/benz"
+            android:layout_alignStart="@+id/benz"
+            android:layout_marginBottom="20dp"
+            android:paddingHorizontal="2dp"
+            android:text="@string/hundai"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <!--    <CheckBox-->
+    <!--        android:id="@+id/ordinary_checkbox"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/material_checkbox"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:minWidth="120dp"-->
+    <!--        android:text="@string/ordinary"-->
+    <!--      />-->
+
+</RelativeLayout>

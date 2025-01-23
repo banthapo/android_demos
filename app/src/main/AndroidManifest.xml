@@ -13,6 +13,9 @@
         android:theme="@style/Theme.AndroidDemos"
         tools:targetApi="31">
         <activity
+            android:name=".Checkbox"
+            android:exported="false" />
+        <activity
             android:name=".EventsFromUI"
             android:exported="true">
             <intent-filter>
@@ -24,7 +27,6 @@
         <activity
             android:name=".EventsByImplementation"
             android:exported="false" />
-
     </application>
 
 </manifest>

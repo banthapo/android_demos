@@ -49,4 +49,9 @@
     <string name="view_input">input text</string>
     <string name="grab_text">Grab Text</string>
     <string name="enter_text">Enter text</string>
+    <string name="ordinary">Ordinary\n</string>
+    <string name="material">Material</string>
+    <string name="bmw">BMW</string>
+    <string name="benz">Mercedes Benz</string>
+    <string name="hundai">Hundai</string>
 </resources>
