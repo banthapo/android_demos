@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".EventsByImplementation"
+    android:padding="80dp">
+
+    <TextView
+        android:id="@+id/textDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_input"
+        android:layout_centerInParent="true"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:textColor="@color/dark_green"
+        android:layout_below="@+id/grabTxtBtn"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <Button
+        android:id="@+id/grabTxtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_green"
+        android:text="@string/grab_text"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_text"
+        android:inputType="textAutoCorrect"
+        android:autofillHints="none"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        android:layout_above="@+id/grabTxtBtn"
+        android:textSize="24sp"
+        android:textColorHint="@color/grey"
+        />
+
+</RelativeLayout>
