@@ -3,20 +3,25 @@ package com.banthi.androiddemos;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
 
-public class Checkbox extends AppCompatActivity implements View.OnClickListener {
+public class Checkbox extends AppCompatActivity implements View.OnClickListener, CompoundButton.OnCheckedChangeListener {
 
     private TextView text;
-    private View bmwCheckbox;
-    private View benzCheckbox;
-    private View hundaiCheckbox;
+    private CheckBox bmwCheckbox;
+    private CheckBox benzCheckbox;
+    private CheckBox hundaiCheckbox;
+    private Button nextBtn;
 
-    @SuppressLint("WrongViewCast")
+    @SuppressLint({"WrongViewCast", "MissingInflatedId"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,31 +31,44 @@ public class Checkbox extends AppCompatActivity implements View.OnClickListener 
         bmwCheckbox = findViewById(R.id.bmw);
         benzCheckbox = findViewById(R.id.benz);
         hundaiCheckbox = findViewById(R.id.hundai);
+        nextBtn = findViewById(R.id.nextBtn);
 
-        text.setOnClickListener(this);
-        bmwCheckbox.setOnClickListener(this);
-        benzCheckbox.setOnClickListener(this);
-//        hundaiCheckbox.setOnCheckedChangeListener(this);
+        bmwCheckbox.setOnCheckedChangeListener(this);
+        benzCheckbox.setOnCheckedChangeListener(this);
+        hundaiCheckbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked)
+                    Toast.makeText(Checkbox.this, "Hundai marked", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(Checkbox.this, "Hundai unmarked", Toast.LENGTH_SHORT).show();
+            }
+        });
+        nextBtn.setOnClickListener(this);
+    }
+
+    @Override
+    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+        if (buttonView.getId() == R.id.bmw) {
+            if (isChecked)
+                Toast.makeText(this, "BMW marked", Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(this, "BMW unmarked", Toast.LENGTH_SHORT).show();
+        }
+
+        if (buttonView.getId() == R.id.benz) {
+            if (isChecked)
+                Toast.makeText(this, "Mercedes Benz marked", Toast.LENGTH_SHORT).show();
+            else
+                Toast.makeText(this, "Mercedes Benz unmarked", Toast.LENGTH_SHORT).show();
+        }
     }
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.car_selection_text) {
-            Toast.makeText(this, "Car selection text clicked", Toast.LENGTH_LONG).show();
+        if (v.getId() == R.id.nextBtn) {
+            Intent intent = new Intent(Checkbox.this, RadioBtn.class);
+            startActivity(intent);
         }
-        if (v.getId() == R.id.bmw) {
-            if (v.isDirty())
-                Toast.makeText(this, "BMW marked", Toast.LENGTH_LONG).show();
-            else
-                Toast.makeText(this, "BMW unmarked", Toast.LENGTH_LONG).show();
-        }
-        if (v.getId() == R.id.benz) {
-//            Toast.makeText(this, "Benz clicked", Toast.LENGTH_LONG).show();
-        }
-        if (v.getId() == R.id.hundai) {
-//            Toast.makeText(this, "Hundai clicked", Toast.LENGTH_LONG).show();
-        }
-
     }
-
 }
