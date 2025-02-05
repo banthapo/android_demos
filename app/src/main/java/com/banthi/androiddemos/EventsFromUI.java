@@ -31,7 +31,7 @@ public class EventsFromUI extends AppCompatActivity {
 
                 Intent intent = new Intent(EventsFromUI.this, EventsByImplementation.class);
                 startActivity(intent);
-                            }
+            }
         });
         t.start();
     }

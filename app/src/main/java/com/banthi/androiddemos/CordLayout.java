@@ -33,9 +33,9 @@ public class CordLayout extends AppCompatActivity implements View.OnClickListene
             startActivity(intent);
         }
         if(v.getId() == R.id.nextBtn){
-//            intent = new Intent(this, LinLayout.class);
-//            startActivity(intent);
-            Toast.makeText(this, "Next Clicked...", Toast.LENGTH_SHORT).show();
+            intent = new Intent(this, Images.class);
+            startActivity(intent);
+//            Toast.makeText(this, "Next Clicked...", Toast.LENGTH_SHORT).show();
         }
     }
 }
