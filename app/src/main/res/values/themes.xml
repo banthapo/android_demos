@@ -5,5 +5,12 @@
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
+<!--   to apply one must customise the manifest file to the specific theme -->
+    <style name="custom_style" parent="Theme.MaterialComponents.Light">
+<!--        <item name="android:textColor" >@color/black</item>-->
+<!--        <item name="backgroundColor" >@color/white</item>-->
+<!--        <item name="backgroundTint" >@color/light_blue</item>-->
+    </style>
+
     <style name="Theme.AndroidDemos" parent="Base.Theme.AndroidDemos" />
 </resources>

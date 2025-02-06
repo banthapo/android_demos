@@ -10,13 +10,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidDemos"
+        android:theme="@style/custom_style"
         tools:targetApi="31">
         <activity
-            android:name=".Listview"
+            android:name=".MaterialDesign1"
             android:exported="false" />
         <activity
-            android:name=".Images"
+            android:name=".XMLFiles"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,6 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Listview"
+            android:exported="false" />
+        <activity
+            android:name=".Images"
+            android:exported="false" />
         <activity
             android:name=".CordLayout"
             android:exported="false" />

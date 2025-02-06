@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addOpt"
+        android:title="add" />
+    <item
+        android:id="@+id/detailsOpt"
+        android:title="details" />
+    <item
+        android:id="@+id/suspendOpt"
+        android:title="suspend" />
+    <item
+        android:id="@+id/removeOpt"
+        android:title="remove" />
+
+</menu>

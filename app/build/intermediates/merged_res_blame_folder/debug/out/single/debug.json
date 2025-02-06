@@ -1,0 +1,354 @@
+[
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sample_2.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sample_2.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sample_2_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sample_2_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sample_2.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sample_2.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_xmlfiles.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_xmlfiles.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/drawable_ic_sampo_foreground.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/drawable/ic_sampo_foreground.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sampo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sampo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sampo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sampo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sample_2_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sample_2_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sample_2_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sample_2_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_logo_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_logo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sampo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sampo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_logo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sample_2_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sample_2_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_listview.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_listview.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sample_round.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sample_round.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sample_2.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sample_2.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_logo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sample_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sample_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_rel_layout.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_rel_layout.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sampo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sampo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/drawable_ic_sampo_background.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/drawable/ic_sampo_background.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sample_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sample_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_logo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_logo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_logo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sampo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sampo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sample_2.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sample_2.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_logo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sampo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sampo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_checkbox.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_checkbox.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sample_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sample_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_logo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sampo.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sampo.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_logo.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_logo.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_event_from_ui.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_event_from_ui.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sample_2_round.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sample_2_round.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sample_2_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sample_2_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sample_2_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sample_2_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/xml_backup_rules.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sample.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sample.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sample.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sample.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_logo_round.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_logo_round.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sampo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sampo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sample_2_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sample_2_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_logo_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_events_by_implementation.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_events_by_implementation.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sample_2.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sample_2.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sampo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sampo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_logo_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_logo_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sample_2.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sample_2.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sample_2_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sample_2_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sample_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sample_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_radio_button.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_radio_button.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_lin_layout.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_lin_layout.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_logo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_logo.webp"
+    },
+    {
+        "merged": "com.banthi.androiddemos.app-merged_res-31:/layout_activity_xmlfiles.xml.flat",
+        "source": "com.banthi.androiddemos.app-main-33:/layout/activity_xmlfiles.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_logo_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sample_2_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sample_2_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sampo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sampo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_sample.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_sample.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sample_2_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sample_2_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/drawable_ic_sample_foreground.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/drawable/ic_sample_foreground.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxhdpi_ic_sample.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxhdpi/ic_sample.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-anydpi-v26_ic_sampo_round.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-anydpi-v26/ic_sampo_round.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_logo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_logo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_cord_layout.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_cord_layout.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/layout_activity_images.xml.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/layout/activity_images.xml"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sample.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sample.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-mdpi_ic_logo_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-mdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-hdpi_ic_sample.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-hdpi/ic_sample.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_logo_foreground.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_logo_foreground.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xhdpi_ic_sampo.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xhdpi/ic_sampo.webp"
+    },
+    {
+        "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-31:/mipmap-xxxhdpi_ic_sample_round.webp.flat",
+        "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-33:/mipmap-xxxhdpi/ic_sample_round.webp"
+    }
+]

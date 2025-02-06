@@ -17,15 +17,15 @@
     <string name="benz">Mercedes Benz</string>
     <string name="hundai">Hundai</string>
     <string name="coordinate_layout">Coordinate Layout</string>
-    <string-array name="rate" >
+    <string name="greeting">Hello</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="rate">
         <item>worse</item>
         <item>bad</item>
         <item>good</item>
         <item>v.good</item>
         <item>awesome</item>
     </string-array>
-
-
 
 
 </resources>

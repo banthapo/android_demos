@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rate">
+        <item>worse</item>
+        <item>bad</item>
+        <item>good</item>
+        <item>v.good</item>
+        <item>awesome</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="brown">#4C0D0D</color>
+    <color name="dark_blue">#000064</color>
+    <color name="dark_green">#B2115C20</color>
+    <color name="grey">#676565</color>
+    <color name="ic_logo_background">#DAAC51</color>
+    <color name="ic_sample_2_background">#FFFFFF</color>
+    <color name="ic_sample_background">#000000</color>
+    <color name="light_blue">#00A0DC</color>
+    <color name="light_green">#EE37E159</color>
+    <color name="orange">#F4511E</color>
+    <color name="red">#FF0303</color>
+    <color name="sky_blue">#1E88E5</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#E3D807</color>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Android Demos</string>
+    <string name="benz">Mercedes Benz</string>
+    <string name="bmw">BMW</string>
+    <string name="coordinate_layout">Coordinate Layout</string>
+    <string name="enter_text">Enter text</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="grab_text">Grab Text</string>
+    <string name="greet_btn">greet</string>
+    <string name="greeting">Hello</string>
+    <string name="hundai">Hundai</string>
+    <string name="material">Material</string>
+    <string name="next">Next</string>
+    <string name="ordinary">Ordinary\n</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="textview">Click button</string>
+    <string name="title_activity_events_by_id">EventsById</string>
+    <string name="view_input">input text</string>
+    <style name="Base.Theme.AndroidDemos" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.AndroidDemos" parent="Base.Theme.AndroidDemos"/>
+    <style name="custom_style" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColor">@color/black</item>
+        <item name="backgroundColor">@color/white</item>
+        <item name="backgroundTint">@color/light_blue</item>
+    </style>
+</resources>

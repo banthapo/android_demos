@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".RadioBtn">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radio Buttons"
+        android:textColor="@color/brown"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:id="@id/title"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text"
+        android:text="Select your gender"
+        android:layout_below="@id/title"
+        android:layout_marginTop="80dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold|italic"
+        />
+
+    <RadioGroup
+        android:id="@+id/rgGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="240dp"
+        android:background="@color/light_green"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/rbMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="true"
+            android:text="Male"
+            android:textColor="@color/dark_blue" />
+
+        <RadioButton
+            android:id="@+id/rbFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="false"
+            android:text="Female"
+            android:textColor="@color/dark_blue" />
+
+        <RadioButton
+            android:id="@+id/rbOthers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:checked="false"
+            android:text="Others"
+            android:textColor="@color/dark_blue" />
+    </RadioGroup>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:id="@+id/progressCircular"/>
+
+    <ProgressBar
+        android:id="@+id/progressLinear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="visible"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:progress="40"
+        />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rgGender"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/light_green"
+        android:text="Next"
+        android:textColor="@color/brown"
+        android:textSize="18sp" />
+
+</RelativeLayout>

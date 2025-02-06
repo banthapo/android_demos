@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XMLFiles">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="Using different xml files"
+        android:textColor="@color/orange"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/greeting"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/includeTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greeting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Include tags"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <include
+        layout="@layout/list_item"
+        android:id="@+id/listItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Good"
+        android:layout_below="@id/listItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+
+
+
+</RelativeLayout>
