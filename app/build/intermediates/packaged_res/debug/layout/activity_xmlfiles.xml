@@ -31,5 +31,37 @@
         android:textSize="20dp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/includeTags"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/greeting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Include tags"
+        android:textColor="@color/yellow"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <include
+        layout="@layout/list_item"
+        android:id="@+id/listItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_below="@id/listItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/nextBtn"/>
+
+
+
 
 </RelativeLayout>

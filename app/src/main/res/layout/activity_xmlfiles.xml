@@ -55,10 +55,11 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Good"
+        android:text="@string/next"
         android:layout_below="@id/listItem"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:id="@+id/nextBtn"/>
 
 
 

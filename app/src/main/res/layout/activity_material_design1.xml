@@ -29,9 +29,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:text="@string/previous"
+        android:textColor="@color/light_blue"
         android:textSize="16dp"
-        android:textStyle="bold"
-        android:textColor="@color/light_blue"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/cancelBtn"
@@ -42,10 +42,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:text="@string/cancel"
-        android:textSize="16dp"
-        android:textStyle="bold"
         android:textColor="@color/light_blue"
-        />
+        android:textSize="16dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/textBtn"
@@ -55,20 +54,18 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="Dealing with MD Buttons"
-        android:textSize="25dp"
-        android:textStyle="bold"
         android:textColor="@color/sky_blue"
-        />
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/phoneBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_phone"
-        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
         android:layout_margin="15dp"
-        />
-
+        android:src="@drawable/ic_phone" />
 
 
 </RelativeLayout>

@@ -13,17 +13,24 @@
         android:theme="@style/custom_style"
         tools:targetApi="31">
         <activity
-            android:name=".MaterialDesign1"
-            android:exported="false" />
-        <activity
-            android:name=".XMLFiles"
-            android:exported="true">
+            android:name=".Cardview"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".SnackBar"
+            android:exported="false"/>
+
+        <activity
+            android:name=".MaterialDesign1"
+            android:exported="false" />
+        <activity
+            android:name=".XMLFiles"
+            android:exported="false" />
         <activity
             android:name=".Listview"
             android:exported="false" />
