@@ -16,6 +16,7 @@ color ic_sample_background
 color ic_settings_bg
 color light_blue
 color light_green
+color meloon
 color orange
 color red
 color sky_blue
@@ -46,6 +47,11 @@ id cardButton
 id cardLayout
 id cardText
 id carsBlandLayout
+id contactItem
+id contactName
+id contactNumber
+id contactPhoto
+id detailsLayout
 id detailsOpt
 id extraDetails
 id firstname
@@ -80,9 +86,12 @@ id rate
 id rbFemale
 id rbMale
 id rbOthers
+id recyclerView
 id relativeLayout
 id removeOpt
 id rgGender
+id rvList
+id rvListBtn
 id sample
 id sample_2
 id sampo
@@ -104,9 +113,11 @@ layout activity_lin_layout
 layout activity_listview
 layout activity_material_design1
 layout activity_radio_button
+layout activity_recyclerview
 layout activity_rel_layout
 layout activity_snackbar
 layout activity_xmlfiles
+layout contact_item
 layout list_item
 menu list_menu
 menu main_menu

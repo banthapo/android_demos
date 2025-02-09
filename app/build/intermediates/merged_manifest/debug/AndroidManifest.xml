@@ -28,7 +28,7 @@
         android:testOnly="true"
         android:theme="@style/custom_style" >
         <activity
-            android:name="com.banthi.androiddemos.Cardview"
+            android:name="com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +36,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.banthi.androiddemos.Cardview"
+            android:exported="true" />
         <activity
             android:name="com.banthi.androiddemos.SnackBar"
             android:exported="false" />

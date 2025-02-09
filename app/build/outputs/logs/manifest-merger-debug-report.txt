@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-63:12
-INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-63:12
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-65:12
+INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:1-65:12
 MERGED from [com.google.android.material:material:1.12.0] /Users/banthapo/.gradle/caches/transforms-3/e8f933764c521e6275639cfb1b008815/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/banthapo/.gradle/caches/transforms-3/7431eeeef556cedba53b291c66cce672/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /Users/banthapo/.gradle/caches/transforms-3/6e707be124c1831cb40732cd32bd5e99/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.0] /Users/banthapo/
 	xmlns:android
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:5:5-61:19
-INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:5:5-61:19
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:5:5-63:19
+INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:5:5-63:19
 MERGED from [com.google.android.material:material:1.12.0] /Users/banthapo/.gradle/caches/transforms-3/e8f933764c521e6275639cfb1b008815/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /Users/banthapo/.gradle/caches/transforms-3/e8f933764c521e6275639cfb1b008815/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /Users/banthapo/.gradle/caches/transforms-3/7431eeeef556cedba53b291c66cce672/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
@@ -96,12 +96,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/banthapo/.gradle/cac
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:13:9-44
 	android:dataExtractionRules
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.banthi.androiddemos.Cardview
+activity#com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView
 ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:15:9-23:20
 	android:exported
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:16:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:16:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
@@ -112,78 +112,84 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:21:27-74
-activity#com.banthi.androiddemos.SnackBar
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:24:9-26:39
+activity#com.banthi.androiddemos.Cardview
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:24:9-26:38
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:26:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:26:13-36
 	android:name
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:25:13-37
+activity#com.banthi.androiddemos.SnackBar
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:28:13-37
 activity#com.banthi.androiddemos.MaterialDesign1
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:28:9-30:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:30:9-32:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:30:13-37
-	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:29:13-44
-activity#com.banthi.androiddemos.XMLFiles
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:31:9-33:40
-	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:33:13-37
-	android:name
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:32:13-37
-activity#com.banthi.androiddemos.Listview
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:34:9-36:40
-	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:36:13-37
 	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:31:13-44
+activity#com.banthi.androiddemos.XMLFiles
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:33:9-35:40
+	android:exported
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:34:13-37
+activity#com.banthi.androiddemos.Listview
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:37:13-37
 activity#com.banthi.androiddemos.Images
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:37:9-39:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:39:9-41:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:39:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:41:13-37
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:38:13-35
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:40:13-35
 activity#com.banthi.androiddemos.CordLayout
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:40:9-42:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:42:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:41:13-39
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:43:13-39
 activity#com.banthi.androiddemos.LinLayout
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:43:9-45:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:45:9-47:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:45:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:44:13-38
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:46:13-38
 activity#com.banthi.androiddemos.RelLayout
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:46:9-48:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:48:9-50:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:48:13-37
-	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:47:13-38
-activity#com.banthi.androiddemos.RadioBtn
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:49:9-51:40
-	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:51:13-37
-	android:name
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:50:13-37
-activity#com.banthi.androiddemos.Checkbox
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:52:9-54:40
-	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:54:13-37
 	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:49:13-38
+activity#com.banthi.androiddemos.RadioBtn
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:51:9-53:40
+	android:exported
 		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:52:13-37
+activity#com.banthi.androiddemos.Checkbox
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:55:13-37
 activity#com.banthi.androiddemos.EventsFromUI
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:55:9-57:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:57:9-59:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:57:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:59:13-37
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:56:13-41
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:58:13-41
 activity#com.banthi.androiddemos.EventsByImplementation
-ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:58:9-60:40
+ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:60:9-62:40
 	android:exported
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:60:13-37
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:62:13-37
 	android:name
-		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:59:13-51
+		ADDED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:61:13-51
 uses-sdk
 INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml

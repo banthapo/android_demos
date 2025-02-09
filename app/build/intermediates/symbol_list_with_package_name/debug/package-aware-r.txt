@@ -2050,6 +2050,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color meloon
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -3277,6 +3278,10 @@ id collapseActionView
 id compress
 id confirm_button
 id constraint
+id contactItem
+id contactName
+id contactNumber
+id contactPhoto
 id container
 id content
 id contentPanel
@@ -3302,6 +3307,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id detailsLayout
 id detailsOpt
 id dialog_button
 id dimensions
@@ -3546,6 +3552,7 @@ id rbFemale
 id rbMale
 id rbOthers
 id rectangles
+id recyclerView
 id relativeLayout
 id removeOpt
 id report_drawn
@@ -3557,6 +3564,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id rvList
+id rvListBtn
 id sample
 id sample_2
 id sampo
@@ -3824,9 +3833,11 @@ layout activity_lin_layout
 layout activity_listview
 layout activity_material_design1
 layout activity_radio_button
+layout activity_recyclerview
 layout activity_rel_layout
 layout activity_snackbar
 layout activity_xmlfiles
+layout contact_item
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
