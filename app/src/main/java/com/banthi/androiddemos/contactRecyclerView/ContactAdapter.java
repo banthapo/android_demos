@@ -1,9 +1,13 @@
 package com.banthi.androiddemos.contactRecyclerView;
 
+import android.annotation.SuppressLint;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,8 +18,10 @@ import java.util.ArrayList;
 
 public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHolder> {
     private ArrayList<Contact> contacts = new ArrayList<>();
+    private Context context;
 
-    public ContactAdapter() {
+    public ContactAdapter(Context context) {
+        this.context = context;
     }
 
     @NonNull
@@ -27,9 +33,16 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull ViewHolder holder, @SuppressLint("RecyclerView") final int position) {
         holder.name.setText(contacts.get(position).getName());
         holder.phone.setText(contacts.get(position).getPhone());
+
+        holder.parent.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, contacts.get(position).getName() + " Clicked", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override
@@ -45,11 +58,13 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView name;
         private TextView phone;
+        private RelativeLayout parent;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.contactName);
             phone = itemView.findViewById(R.id.contactNumber);
+            parent = itemView.findViewById(R.id.contactItem);
         }
     }
 }

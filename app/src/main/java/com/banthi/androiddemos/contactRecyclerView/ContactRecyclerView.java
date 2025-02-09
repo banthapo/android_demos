@@ -35,7 +35,7 @@ public class ContactRecyclerView extends AppCompatActivity {
         contacts.add(new Contact("Banthapo Gawa", "0996755333", "g@u.com"));
         contacts.add(new Contact("Banthapo Flower", "098989877565", "f@u.com"));
 
-        ContactAdapter adapter = new ContactAdapter();
+        ContactAdapter adapter = new ContactAdapter(this);
         adapter.setContacts(contacts);
 
         peopleList.setAdapter(adapter);
