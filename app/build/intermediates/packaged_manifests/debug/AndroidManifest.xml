@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.banthi.androiddemos"
+    android:usesCleartextTraffic="true"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.banthi.androiddemos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -28,7 +31,7 @@
         android:testOnly="true"
         android:theme="@style/custom_style" >
         <activity
-            android:name="com.banthi.androiddemos.XMLFiles"
+            android:name="com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,6 +39,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.banthi.androiddemos.Cardview"
+            android:exported="true" />
+        <activity
+            android:name="com.banthi.androiddemos.SnackBar"
+            android:exported="false" />
+        <activity
+            android:name="com.banthi.androiddemos.MaterialDesign1"
+            android:exported="false" />
+        <activity
+            android:name="com.banthi.androiddemos.XMLFiles"
+            android:exported="false" />
         <activity
             android:name="com.banthi.androiddemos.Listview"
             android:exported="false" />

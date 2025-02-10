@@ -13,11 +13,16 @@
     <color name="dark_blue">#000064</color>
     <color name="dark_green">#B2115C20</color>
     <color name="grey">#676565</color>
+    <color name="ic_accounts_background">#FFFFFF</color>
     <color name="ic_logo_background">#DAAC51</color>
+    <color name="ic_menu_background">#FFFFFF</color>
+    <color name="ic_phone_background">#FFFFFF</color>
     <color name="ic_sample_2_background">#FFFFFF</color>
     <color name="ic_sample_background">#000000</color>
+    <color name="ic_settings_bg">#FFFFFF</color>
     <color name="light_blue">#00A0DC</color>
     <color name="light_green">#EE37E159</color>
+    <color name="meloon">#8D160E</color>
     <color name="orange">#F4511E</color>
     <color name="red">#FF0303</color>
     <color name="sky_blue">#1E88E5</color>
@@ -27,6 +32,7 @@
     <string name="app_name">Android Demos</string>
     <string name="benz">Mercedes Benz</string>
     <string name="bmw">BMW</string>
+    <string name="cancel">Cancel</string>
     <string name="coordinate_layout">Coordinate Layout</string>
     <string name="enter_text">Enter text</string>
     <string name="first_fragment_label">First Fragment</string>
@@ -47,9 +53,9 @@
         
     </style>
     <style name="Theme.AndroidDemos" parent="Base.Theme.AndroidDemos"/>
-    <style name="custom_style" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="android:textColor">@color/black</item>
-        <item name="backgroundColor">@color/white</item>
-        <item name="backgroundTint">@color/light_blue</item>
+    <style name="custom_style" parent="Theme.MaterialComponents.Light">
+
+
+
     </style>
 </resources>
