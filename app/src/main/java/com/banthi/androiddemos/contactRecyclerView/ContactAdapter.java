@@ -5,6 +5,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -13,6 +14,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.banthi.androiddemos.R;
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -43,6 +45,15 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
                 Toast.makeText(context, contacts.get(position).getName() + " Clicked", Toast.LENGTH_SHORT).show();
             }
         });
+
+        //TODO fix glide image view problem
+        Glide.with(context)
+                .asBitmap()
+                .load(contacts.get(position).getImgUrl())
+                .error(R.drawable.ic_accounts_foreground)
+                .placeholder(R.drawable.ic_launcher_background)
+                .into(holder.photo);
+
     }
 
     @Override
@@ -58,12 +69,14 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView name;
         private TextView phone;
+        private ImageView photo;
         private RelativeLayout parent;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             name = itemView.findViewById(R.id.contactName);
             phone = itemView.findViewById(R.id.contactNumber);
+            photo = itemView.findViewById(R.id.contactPhoto);
             parent = itemView.findViewById(R.id.contactItem);
         }
     }

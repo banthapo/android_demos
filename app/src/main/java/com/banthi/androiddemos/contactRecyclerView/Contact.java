@@ -4,11 +4,21 @@ public class Contact {
     private String name;
     private String phone;
     private String email;
+    private String lmgUrl;
 
-    public Contact(String name, String phone, String email) {
+    public Contact(String name, String phone, String email, String imgUrl) {
         this.name = name;
         this.phone = phone;
         this.email = email;
+        this.lmgUrl = imgUrl;
+    }
+
+    public String getImgUrl() {
+        return lmgUrl;
+    }
+
+    public void setImgUrl(String lmgUrl) {
+        this.lmgUrl = lmgUrl;
     }
 
     public String getName() {

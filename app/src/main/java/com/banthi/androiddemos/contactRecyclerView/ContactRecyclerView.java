@@ -29,11 +29,11 @@ public class ContactRecyclerView extends AppCompatActivity {
         peopleList = findViewById(R.id.rvList);
 
         contacts = new ArrayList<>();
-        contacts.add(new Contact("Banthapo Chabwera", "088676676", "b@u.com"));
-        contacts.add(new Contact("Banthapo Nyanja", "0990909009", "n@u.com"));
-        contacts.add(new Contact("Banthapo Kalira", "0887665553", "k@u.com"));
-        contacts.add(new Contact("Banthapo Gawa", "0996755333", "g@u.com"));
-        contacts.add(new Contact("Banthapo Flower", "098989877565", "f@u.com"));
+        contacts.add(new Contact("Banthapo Chabwera", "088676676", "b@u.com","https://www.shutterstock.com/image-photo/image-handsome-smiling-young-african-260nw-722913181.jpg"));
+        contacts.add(new Contact("Banthapo Nyanja", "0990909009", "n@u.com", "https://www.shutterstock.com/image-photo/image-handsome-smiling-young-african-260nw-722913181.jpg"));
+        contacts.add(new Contact("Banthapo Kalira", "0887665553", "k@u.com", "https://www.google.com/url?https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?semt=ais_hybrid"));
+        contacts.add(new Contact("Banthapo Gawa", "0996755333", "g@u.com", "https://www.shutterstock.com/image-photo/image-handsome-smiling-young-african-260nw-722913181.jpg"));
+        contacts.add(new Contact("Banthapo Flower", "098989877565", "f@u.com", "https://www.shutterstock.com/image-photo/image-handsome-smiling-young-african-260nw-722913181.jpg"));
 
         ContactAdapter adapter = new ContactAdapter(this);
         adapter.setContacts(contacts);

@@ -1,208 +1,213 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.banthi.androiddemos"
-4    android:versionCode="1"
-5    android:versionName="1.0" >
-6
-7    <uses-sdk
-8        android:minSdkVersion="24"
-9        android:targetSdkVersion="33" />
-10
-11    <permission
-11-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-12        android:name="com.banthi.androiddemos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.banthi.androiddemos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:5:5-63:19
-18        android:allowBackup="true"
-18-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_logo"
-24-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:9:9-39
-25        android:label="@string/app_name"
-25-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:10:9-41
-26        android:roundIcon="@mipmap/ic_logo"
-26-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:11:9-44
-27        android:supportsRtl="true"
-27-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:12:9-35
-28        android:testOnly="true"
-29        android:theme="@style/custom_style" >
-29-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:13:9-44
-30        <activity
-30-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:15:9-23:20
-31            android:name="com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView"
-31-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:16:13-68
-32            android:exported="true" >
-32-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:17:13-36
-33            <intent-filter>
-33-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:18:13-22:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:19:17-69
-34-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:19:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:21:17-77
-36-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:21:27-74
-37            </intent-filter>
-38        </activity>
-39        <activity
-39-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:24:9-26:38
-40            android:name="com.banthi.androiddemos.Cardview"
-40-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:25:13-37
-41            android:exported="true" />
-41-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:26:13-36
+4    android:usesCleartextTraffic="true"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+10        android:targetSdkVersion="33" />
+11
+12    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+12-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:6:5-73
+12-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:6:29-71
+13
+14    <permission
+14-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+15        android:name="com.banthi.androiddemos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.banthi.androiddemos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:8:5-66:19
+21        android:allowBackup="true"
+21-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:9:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.0] /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:10:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:11:9-54
+27        android:icon="@mipmap/ic_logo"
+27-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:12:9-39
+28        android:label="@string/app_name"
+28-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:13:9-41
+29        android:roundIcon="@mipmap/ic_logo"
+29-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:14:9-44
+30        android:supportsRtl="true"
+30-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:15:9-35
+31        android:testOnly="true"
+32        android:theme="@style/custom_style" >
+32-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:16:9-44
+33        <activity
+33-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:18:9-26:20
+34            android:name="com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView"
+34-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:19:13-68
+35            android:exported="true" >
+35-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:20:13-36
+36            <intent-filter>
+36-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:21:13-25:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:22:17-69
+37-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:22:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:24:17-77
+39-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:24:27-74
+40            </intent-filter>
+41        </activity>
 42        <activity
-42-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:27:9-29:40
-43            android:name="com.banthi.androiddemos.SnackBar"
+42-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:27:9-29:38
+43            android:name="com.banthi.androiddemos.Cardview"
 43-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:28:13-37
-44            android:exported="false" />
-44-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:29:13-37
+44            android:exported="true" />
+44-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:29:13-36
 45        <activity
 45-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:30:9-32:40
-46            android:name="com.banthi.androiddemos.MaterialDesign1"
-46-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:31:13-44
+46            android:name="com.banthi.androiddemos.SnackBar"
+46-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:31:13-37
 47            android:exported="false" />
 47-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:32:13-37
 48        <activity
 48-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:33:9-35:40
-49            android:name="com.banthi.androiddemos.XMLFiles"
-49-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:34:13-37
+49            android:name="com.banthi.androiddemos.MaterialDesign1"
+49-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:34:13-44
 50            android:exported="false" />
 50-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:35:13-37
 51        <activity
 51-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:36:9-38:40
-52            android:name="com.banthi.androiddemos.Listview"
+52            android:name="com.banthi.androiddemos.XMLFiles"
 52-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:37:13-37
 53            android:exported="false" />
 53-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:38:13-37
 54        <activity
 54-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:39:9-41:40
-55            android:name="com.banthi.androiddemos.Images"
-55-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:40:13-35
+55            android:name="com.banthi.androiddemos.Listview"
+55-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:40:13-37
 56            android:exported="false" />
 56-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:41:13-37
 57        <activity
 57-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:42:9-44:40
-58            android:name="com.banthi.androiddemos.CordLayout"
-58-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:43:13-39
+58            android:name="com.banthi.androiddemos.Images"
+58-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:43:13-35
 59            android:exported="false" />
 59-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:44:13-37
 60        <activity
 60-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:45:9-47:40
-61            android:name="com.banthi.androiddemos.LinLayout"
-61-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:46:13-38
+61            android:name="com.banthi.androiddemos.CordLayout"
+61-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:46:13-39
 62            android:exported="false" />
 62-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:47:13-37
 63        <activity
 63-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:48:9-50:40
-64            android:name="com.banthi.androiddemos.RelLayout"
+64            android:name="com.banthi.androiddemos.LinLayout"
 64-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:49:13-38
 65            android:exported="false" />
 65-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:50:13-37
 66        <activity
 66-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:51:9-53:40
-67            android:name="com.banthi.androiddemos.RadioBtn"
-67-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:52:13-37
+67            android:name="com.banthi.androiddemos.RelLayout"
+67-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:52:13-38
 68            android:exported="false" />
 68-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:53:13-37
 69        <activity
 69-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:54:9-56:40
-70            android:name="com.banthi.androiddemos.Checkbox"
+70            android:name="com.banthi.androiddemos.RadioBtn"
 70-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:55:13-37
 71            android:exported="false" />
 71-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:56:13-37
 72        <activity
 72-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:57:9-59:40
-73            android:name="com.banthi.androiddemos.EventsFromUI"
-73-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:58:13-41
+73            android:name="com.banthi.androiddemos.Checkbox"
+73-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:58:13-37
 74            android:exported="false" />
 74-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:59:13-37
 75        <activity
 75-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:60:9-62:40
-76            android:name="com.banthi.androiddemos.EventsByImplementation"
-76-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:61:13-51
+76            android:name="com.banthi.androiddemos.EventsFromUI"
+76-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:61:13-41
 77            android:exported="false" />
 77-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:62:13-37
-78
-79        <provider
-79-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
-80            android:name="androidx.startup.InitializationProvider"
-80-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
-81            android:authorities="com.banthi.androiddemos.androidx-startup"
-81-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
-82            android:exported="false" >
-82-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
-83            <meta-data
-83-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
-84                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-84-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
-85                android:value="androidx.startup" />
-85-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+78        <activity
+78-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:63:9-65:40
+79            android:name="com.banthi.androiddemos.EventsByImplementation"
+79-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:64:13-51
+80            android:exported="false" />
+80-->/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/AndroidManifest.xml:65:13-37
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+84            android:authorities="com.banthi.androiddemos.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 86            <meta-data
-86-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
-87                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-87-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+86-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 88                android:value="androidx.startup" />
-88-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+88-->[androidx.emoji2:emoji2:1.3.0] /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 89            <meta-data
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
-90                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+89-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 91                android:value="androidx.startup" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
-92        </provider>
-93
-94        <receiver
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
-95            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
-96            android:directBootAware="false"
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
-97            android:enabled="true"
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
-98            android:exported="true"
-98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
-99            android:permission="android.permission.DUMP" >
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
-100            <intent-filter>
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
-101                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
-101-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
-102            </intent-filter>
+91-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
 103            <intent-filter>
-103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
-104                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
-104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+103-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 105            </intent-filter>
 106            <intent-filter>
-106-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
-107                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
-107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+106-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 108            </intent-filter>
 109            <intent-filter>
-109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
-110                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
-110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+109-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 111            </intent-filter>
-112        </receiver>
-113    </application>
-114
-115</manifest>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>
