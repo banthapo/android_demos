@@ -2,7 +2,9 @@ package com.banthi.androiddemos.contactRecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -45,13 +47,22 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
                 Toast.makeText(context, contacts.get(position).getName() + " Clicked", Toast.LENGTH_SHORT).show();
             }
         });
+        holder.photo.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                Log.d("LongPress", v.getId() + " was long pressed!!!");
+                return true;
+            }
+        });
 
         //TODO fix glide image view problem
         Glide.with(context)
-                .asBitmap()
                 .load(contacts.get(position).getImgUrl())
+                .override(200, 200)
                 .error(R.drawable.ic_accounts_foreground)
                 .placeholder(R.drawable.ic_launcher_background)
+                .circleCrop()
+                .centerCrop()
                 .into(holder.photo);
 
     }
@@ -69,7 +80,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
     public class ViewHolder extends RecyclerView.ViewHolder {
         private TextView name;
         private TextView phone;
-        private ImageView photo;
+        private final ImageView photo;
         private RelativeLayout parent;
 
         public ViewHolder(@NonNull View itemView) {

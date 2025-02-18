@@ -3231,6 +3231,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avatar
 id axisRelative
 id barrier
 id baseline
@@ -3599,6 +3600,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id simpleImage
 id sin
 id skipCollapsed
 id skipped
@@ -3829,6 +3831,7 @@ layout activity_checkbox
 layout activity_cord_layout
 layout activity_event_from_ui
 layout activity_events_by_implementation
+layout activity_glide_detour
 layout activity_images
 layout activity_lin_layout
 layout activity_listview

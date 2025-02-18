@@ -39,6 +39,7 @@ id actionSnackbar
 id addOpt
 id age
 id appSetting
+id avatar
 id benz
 id bmw
 id cancelBtn
@@ -95,6 +96,7 @@ id rvListBtn
 id sample
 id sample_2
 id sampo
+id simpleImage
 id spinnerTitle
 id surname
 id suspendOpt
@@ -108,6 +110,7 @@ layout activity_checkbox
 layout activity_cord_layout
 layout activity_event_from_ui
 layout activity_events_by_implementation
+layout activity_glide_detour
 layout activity_images
 layout activity_lin_layout
 layout activity_listview

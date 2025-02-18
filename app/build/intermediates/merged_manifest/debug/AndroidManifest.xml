@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.banthi.androiddemos"
-    android:usesCleartextTraffic="true"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -30,6 +29,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/custom_style" >
+        <activity
+            android:name="com.banthi.androiddemos.GlideDetour"
+            android:exported="false" />
         <activity
             android:name="com.banthi.androiddemos.contactRecyclerView.ContactRecyclerView"
             android:exported="true" >
