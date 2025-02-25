@@ -78,8 +78,8 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="color" value="ffa500" />
-                                                <entry key="imagePath" value="/private/var/folders/sx/w87qd5pj4y3_gcm7_3x5pcbw0000gn/T/baseline_phone_enabled_24.xml" />
+                                                <entry key="color" value="ffffff" />
+                                                <entry key="imagePath" value="/private/var/folders/sx/w87qd5pj4y3_gcm7_3x5pcbw0000gn/T/baseline_arrow_forward_24.xml" />
                                                 <entry key="scalingPercent" value="80" />
                                               </map>
                                             </option>
@@ -91,7 +91,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/phone_enabled/baseline_phone_enabled_24.xml" />
+                                                <entry key="url" value="file:$USER_HOME$/Library/Android/sdk/icons/material/materialicons/arrow_forward/baseline_arrow_forward_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -137,10 +137,10 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="ffffff" />
+                                      <entry key="backgroundColor" value="34e5f6" />
                                       <entry key="foregroundAssetType" value="CLIP_ART" />
                                       <entry key="legacyIconShape" value="CIRCLE" />
-                                      <entry key="outputName" value="ic_phone" />
+                                      <entry key="outputName" value="ic_next_arrow" />
                                     </map>
                                   </option>
                                 </PersistentState>

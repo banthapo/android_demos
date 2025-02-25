@@ -18,7 +18,17 @@
     <string name="hundai">Hundai</string>
     <string name="coordinate_layout">Coordinate Layout</string>
     <string name="greeting">Hello</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel" translatable="false">Cancel</string>
+    <string name="android_fonts" translatable="false">Android Fonts</string>
+    <string name="fifth_text" translatable="false">Fifth Text</string>
+    <string name="forth_text" translatable="false">Forth Text</string>
+    <string name="third_text" translatable="false">Third Text</string>
+    <string name="second_text" translatable="false">Second Text</string>
+    <string name="first_text" translatable="false">First Text</string>
+    <string name="first_family">First Family</string>
+    <string name="font_family_title">Using Font Family</string>
+    <string name="second_family">Second Family</string>
+    <string name="third_family">Third Family</string>
     <string-array name="rate">
         <item>worse</item>
         <item>bad</item>

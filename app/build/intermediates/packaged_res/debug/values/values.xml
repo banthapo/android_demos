@@ -16,6 +16,7 @@
     <color name="ic_accounts_background">#FFFFFF</color>
     <color name="ic_logo_background">#DAAC51</color>
     <color name="ic_menu_background">#FFFFFF</color>
+    <color name="ic_next_arrow_background">#34E5F6</color>
     <color name="ic_phone_background">#FFFFFF</color>
     <color name="ic_sample_2_background">#FFFFFF</color>
     <color name="ic_sample_background">#000000</color>
@@ -29,13 +30,19 @@
     <color name="white">#FFFFFFFF</color>
     <color name="yellow">#E3D807</color>
     <string name="action_settings">Settings</string>
+    <string name="android_fonts" translatable="false">Android Fonts</string>
     <string name="app_name">Android Demos</string>
     <string name="benz">Mercedes Benz</string>
     <string name="bmw">BMW</string>
-    <string name="cancel">Cancel</string>
+    <string name="cancel" translatable="false">Cancel</string>
     <string name="coordinate_layout">Coordinate Layout</string>
     <string name="enter_text">Enter text</string>
+    <string name="fifth_text" translatable="false">Fifth Text</string>
+    <string name="first_family">First Family</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="first_text" translatable="false">First Text</string>
+    <string name="font_family_title">Using Font Family</string>
+    <string name="forth_text" translatable="false">Forth Text</string>
     <string name="grab_text">Grab Text</string>
     <string name="greet_btn">greet</string>
     <string name="greeting">Hello</string>
@@ -45,7 +52,9 @@
     <string name="ordinary">Ordinary\n</string>
     <string name="previous">Previous</string>
     <string name="second_fragment_label">Second Fragment</string>
+    <string name="second_text" translatable="false">Second Text</string>
     <string name="textview">Click button</string>
+    <string name="third_text" translatable="false">Third Text</string>
     <string name="title_activity_events_by_id">EventsById</string>
     <string name="view_input">input text</string>
     <style name="Base.Theme.AndroidDemos" parent="Theme.Material3.DayNight.NoActionBar">
