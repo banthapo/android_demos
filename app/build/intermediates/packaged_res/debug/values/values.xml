@@ -51,9 +51,11 @@
     <string name="next">Next</string>
     <string name="ordinary">Ordinary\n</string>
     <string name="previous">Previous</string>
+    <string name="second_family">Second Family</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="second_text" translatable="false">Second Text</string>
     <string name="textview">Click button</string>
+    <string name="third_family">Third Family</string>
     <string name="third_text" translatable="false">Third Text</string>
     <string name="title_activity_events_by_id">EventsById</string>
     <string name="view_input">input text</string>

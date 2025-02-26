@@ -3139,6 +3139,8 @@ int drawable notify_panel_notification_icon_bg 0x7f0800e6
 int drawable test_level_drawable 0x7f0800e7
 int drawable tooltip_frame_dark 0x7f0800e8
 int drawable tooltip_frame_light 0x7f0800e9
+int font android101 0x7f150007
+int font android101_ 0x7f150008
 int font cherish 0x7f150000
 int font droid_serif 0x7f150001
 int font droid_serif_bold 0x7f150002
@@ -3274,6 +3276,7 @@ int id center_vertical 0x7f090073
 int id chain 0x7f090074
 int id chain2 0x7f090075
 int id chains 0x7f090076
+int id change_btn 0x7f090249
 int id checkbox 0x7f090077
 int id checked 0x7f090078
 int id chronometer 0x7f090079
@@ -3372,6 +3375,7 @@ int id flip 0x7f0900cc
 int id floating 0x7f0900cd
 int id font_family_title 0x7f090242
 int id font_title 0x7f090243
+int id font_title_button 0x7f09024a
 int id forever 0x7f0900ce
 int id forth_text 0x7f090244
 int id fragment_container_view_tag 0x7f0900cf
@@ -4153,12 +4157,14 @@ int string search_menu_title 0x7f1000ae
 int string searchbar_scrolling_view_behavior 0x7f1000af
 int string searchview_clear_text_content_description 0x7f1000b0
 int string searchview_navigation_content_description 0x7f1000b1
+int string second_family 0x7f1000c2
 int string second_fragment_label 0x7f1000b2
 int string second_text 0x7f1000c0
 int string side_sheet_accessibility_pane_title 0x7f1000b3
 int string side_sheet_behavior 0x7f1000b4
 int string status_bar_notification_info_overflow 0x7f1000b5
 int string textview 0x7f1000b6
+int string third_family 0x7f1000c3
 int string third_text 0x7f1000c1
 int string title_activity_events_by_id 0x7f1000b7
 int string view_input 0x7f1000b8

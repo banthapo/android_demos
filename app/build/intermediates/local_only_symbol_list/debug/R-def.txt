@@ -36,6 +36,8 @@ drawable ic_sample_foreground
 drawable ic_sampo_background
 drawable ic_sampo_foreground
 drawable ic_settings_foreground
+font android101
+font android101_
 font cherish
 font droid_serif
 font droid_serif_bold
@@ -57,6 +59,7 @@ id cardButton
 id cardLayout
 id cardText
 id carsBlandLayout
+id change_btn
 id contactItem
 id contactName
 id contactNumber
@@ -70,6 +73,7 @@ id first_text
 id firstname
 id font_family_title
 id font_title
+id font_title_button
 id forth_text
 id grabTxtBtn
 id greetBtn
@@ -190,9 +194,11 @@ string material
 string next
 string ordinary
 string previous
+string second_family
 string second_fragment_label
 string second_text
 string textview
+string third_family
 string third_text
 string title_activity_events_by_id
 string view_input

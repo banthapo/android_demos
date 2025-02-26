@@ -296,6 +296,10 @@
         "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-34:/mipmap-anydpi-v26/ic_logout_round.xml"
     },
     {
+        "merged": "com.banthi.androiddemos.app-merged_res-32:/font_android101_.ttf.flat",
+        "source": "com.banthi.androiddemos.app-main-34:/font/android101_.ttf"
+    },
+    {
         "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-32:/mipmap-hdpi_ic_sampo.webp.flat",
         "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-34:/mipmap-hdpi/ic_sampo.webp"
     },
@@ -414,6 +418,10 @@
     {
         "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-32:/mipmap-xhdpi_ic_menu.webp.flat",
         "source": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-main-34:/mipmap-xhdpi/ic_menu.webp"
+    },
+    {
+        "merged": "com.banthi.androiddemos.app-merged_res-32:/font_android101.ttf.flat",
+        "source": "com.banthi.androiddemos.app-main-34:/font/android101.ttf"
     },
     {
         "merged": "/Users/banthapo/.gradle/daemon/8.0/com.banthi.androiddemos.app-merged_res-32:/mipmap-hdpi_ic_logout.webp.flat",

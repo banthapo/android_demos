@@ -3140,6 +3140,8 @@ drawable notify_panel_notification_icon_bg
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+font android101
+font android101_
 font cherish
 font droid_serif
 font droid_serif_bold
@@ -3275,6 +3277,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id change_btn
 id checkbox
 id checked
 id chronometer
@@ -3373,6 +3376,7 @@ id flip
 id floating
 id font_family_title
 id font_title
+id font_title_button
 id forever
 id forth_text
 id fragment_container_view_tag
@@ -4154,12 +4158,14 @@ string search_menu_title
 string searchbar_scrolling_view_behavior
 string searchview_clear_text_content_description
 string searchview_navigation_content_description
+string second_family
 string second_fragment_label
 string second_text
 string side_sheet_accessibility_pane_title
 string side_sheet_behavior
 string status_bar_notification_info_overflow
 string textview
+string third_family
 string third_text
 string title_activity_events_by_id
 string view_input
