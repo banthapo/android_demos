@@ -2,10 +2,12 @@ package com.banthi.androiddemos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -14,7 +16,6 @@ import java.util.ArrayList;
 
 public class Listview extends AppCompatActivity {
     private ArrayList<String> vids;
-    private ListView vidsView;
     private Spinner ratingSpinner;
 
     @Override
@@ -22,7 +23,8 @@ public class Listview extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listview);
 
-        vidsView = findViewById(R.id.listView);
+        Button nextBtn = findViewById(R.id.finishBtn);
+        ListView vidsView = findViewById(R.id.listView);
         vids = new ArrayList<>();
         vids.add("Harry");
         vids.add("King Kong");
@@ -43,6 +45,14 @@ public class Listview extends AppCompatActivity {
             }
         });
 
+
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Listview.this, EventsFromUI.class);
+                startActivity(i);
+            }
+        });
 
         ratingSpinner = findViewById(R.id.rate);
         ArrayList<String> rateText = new ArrayList<>();

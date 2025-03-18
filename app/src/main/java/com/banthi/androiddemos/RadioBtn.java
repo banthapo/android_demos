@@ -26,7 +26,7 @@ public class RadioBtn extends AppCompatActivity {
         rgGender = findViewById(R.id.rgGender);
         progressCircular = findViewById(R.id.progressCircular);
         progressLinear = findViewById(R.id.progressLinear);
-        nextBtn = findViewById(R.id.nextBtn);
+        nextBtn = findViewById(R.id.finishBtn);
 
         /* Doing something without an event */
         int radioBtnId = rgGender.getCheckedRadioButtonId();
@@ -62,7 +62,7 @@ public class RadioBtn extends AppCompatActivity {
                             e.printStackTrace();
                         }
                         SystemClock.sleep(800);
-                        Intent intent = new Intent(RadioBtn.this, RelLayout.class);
+                        Intent intent = new Intent(RadioBtn.this, Cardview.class);
                         startActivity(intent);
                     }
                 });

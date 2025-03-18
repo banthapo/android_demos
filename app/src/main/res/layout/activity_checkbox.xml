@@ -79,7 +79,7 @@
         android:backgroundTint="@color/orange"
         android:text="Next"
         android:textColor="@color/light_green"
-        android:id="@+id/nextBtn"
+        android:id="@+id/finishBtn"
         />
 
 

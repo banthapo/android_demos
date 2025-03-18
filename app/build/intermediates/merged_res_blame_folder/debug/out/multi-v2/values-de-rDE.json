@@ -4,13 +4,13 @@
             "outputFile": "com.banthi.androiddemos.app-mergeDebugResources-30:/values-de-rDE/values-de-rDE.xml",
             "map": [
                 {
-                    "source": "/Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/res/values-de-rDE/strings.xml",
+                    "source": "C:\\Users\\HP\\Documents\\Lonje - Projects\\android_demos\\app\\src\\main\\res\\values-de-rDE\\strings.xml",
                     "from": {
                         "startLines": "3,2,17,16,19,13,4,12,10,20,18,15,6,14,7,5,9,8,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "106,55,812,776,901,632,159,584,490,965,859,730,289,682,327,223,440,373,534",
+                        "startOffsets": "109,57,829,792,920,645,163,596,500,985,877,745,295,696,334,228,449,381,545",
                         "endColumns": "52,50,46,35,63,49,63,47,43,43,41,45,37,47,45,65,49,66,49",
-                        "endOffsets": "154,101,854,807,960,677,218,627,529,1004,896,771,322,725,368,284,485,435,579"
+                        "endOffsets": "157,103,871,823,979,690,222,639,539,1024,914,786,328,739,375,289,494,443,590"
                     },
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",

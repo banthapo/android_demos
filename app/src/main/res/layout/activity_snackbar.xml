@@ -15,7 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/light_blue"
-        android:text="Show normal snackbar"
+        android:text="@string/show_normal_snackbar"
         android:textSize="20sp" />
     <Button
         android:id="@+id/actionSnackbar"
@@ -26,7 +26,19 @@
         android:layout_marginTop="30dp"
         android:layout_below="@+id/normalSnackbar"
         android:backgroundTint="@color/light_blue"
-        android:text="Show action snackbar"
+        android:text="@string/show_action_snackbar"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/finishBtn"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/actionSnackbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:backgroundTint="@color/dark_green"
+        android:text="@string/next"
         android:textSize="20sp" />
 
 </RelativeLayout>

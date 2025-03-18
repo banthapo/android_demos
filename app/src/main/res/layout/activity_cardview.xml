@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:text="Show Card"
+        android:text="@string/show_card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,9 +21,9 @@
         android:layout_width="200dp"
         android:layout_height="300dp"
         android:visibility="gone"
-        app:cardCornerRadius="8px"
+        app:cardCornerRadius="2dp"
         app:cardElevation="10dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardButton">
@@ -39,9 +39,9 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:text="Relative Card"
+                android:text="@string/relative_card"
                 android:textColor="@color/dark_green"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <ImageView
@@ -54,4 +54,16 @@
 
 
     </com.google.android.material.card.MaterialCardView>
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/next"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/dark_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mCardView" />
 </androidx.constraintlayout.widget.ConstraintLayout>

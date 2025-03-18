@@ -35,4 +35,9 @@ public class EventsFromUI extends AppCompatActivity {
         });
         t.start();
     }
+
+    public void onNextBtnClick(View v) {
+        Intent i = new Intent(this, EventsByImplementation.class);
+        startActivity(i);
+    }
 }

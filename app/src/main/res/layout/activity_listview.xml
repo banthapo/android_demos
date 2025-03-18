@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="List View"
+        android:text="@string/list_view"
         android:textColor="@color/brown"
         android:textSize="25sp"
         android:textStyle="bold" />
@@ -31,20 +31,29 @@
         android:layout_below="@id/listView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Spinner"
+        android:text="@string/spinner"
         android:textColor="@color/brown"
         android:textSize="25sp"
         android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/rate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/spinnerTitle"
         android:entries="@array/rate"
         />
+
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rate"
+        android:text="@string/next"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
 

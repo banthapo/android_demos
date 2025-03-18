@@ -31,4 +31,16 @@
         android:textSize="18sp"
         android:onClick="onBtnClick"/>
 
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/greetBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/next"
+        android:textSize="18sp"
+        android:onClick="onNextBtnClick"
+        android:backgroundTint="@color/brown"/>
+
 </RelativeLayout>

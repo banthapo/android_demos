@@ -2,7 +2,10 @@ package com.banthi.androiddemos;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -16,9 +19,17 @@ public class GlideDetour extends AppCompatActivity {
         setContentView(R.layout.activity_glide_detour);
 
         avatar = findViewById(R.id.avatar);
+        Button nextBtn = findViewById(R.id.finishBtn);
         simpleImage = findViewById(R.id.simpleImage);
 
         avatar.setImageResource(R.mipmap.ic_accounts_round);
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(GlideDetour.this, MaterialDesign1.class);
+                startActivity(i);
+            }
+        });
 
         Glide
                 .with(this)

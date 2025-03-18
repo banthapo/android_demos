@@ -17,7 +17,7 @@ public class RelLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_rel_layout);
 
-        nextBtn = findViewById(R.id.nextBtn);
+        nextBtn = findViewById(R.id.finishBtn);
 
         nextBtn.setOnClickListener(new View.OnClickListener() {
             @Override

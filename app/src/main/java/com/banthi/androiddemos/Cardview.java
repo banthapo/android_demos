@@ -1,12 +1,13 @@
 package com.banthi.androiddemos;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 public class Cardview extends AppCompatActivity {
     private Button cButton;
@@ -19,6 +20,7 @@ public class Cardview extends AppCompatActivity {
         setContentView(R.layout.activity_cardview);
 
         cButton = findViewById(R.id.cardButton);
+        Button nextBtn = findViewById(R.id.finishBtn);
         card = findViewById(R.id.mCardView);
 
         cButton.setOnClickListener(new View.OnClickListener() {
@@ -27,9 +29,16 @@ public class Cardview extends AppCompatActivity {
                 handleCardView(v);
             }
         });
-
+        nextBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Cardview.this, GlideDetour.class);
+                startActivity(intent);
+            }
+        });
     }
 
+    @SuppressLint("SetTextI18n")
     private void handleCardView(View v) {
         if (card.getVisibility() == View.GONE) {
             cButton.setText("Hide Card");

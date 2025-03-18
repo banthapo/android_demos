@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class CordLayout extends AppCompatActivity implements View.OnClickListener {
     private Button prevBtn, nextBtn;
@@ -20,7 +19,7 @@ public class CordLayout extends AppCompatActivity implements View.OnClickListene
         setContentView(R.layout.activity_cord_layout);
 
         prevBtn = findViewById(R.id.prevBtn);
-        nextBtn = findViewById(R.id.nextBtn);
+        nextBtn = findViewById(R.id.finishBtn);
         
         prevBtn.setOnClickListener(this);
         nextBtn.setOnClickListener(this);
@@ -32,7 +31,7 @@ public class CordLayout extends AppCompatActivity implements View.OnClickListene
             intent = new Intent(this, LinLayout.class);
             startActivity(intent);
         }
-        if(v.getId() == R.id.nextBtn){
+        if(v.getId() == R.id.finishBtn){
             intent = new Intent(this, Images.class);
             startActivity(intent);
 //            Toast.makeText(this, "Next Clicked...", Toast.LENGTH_SHORT).show();

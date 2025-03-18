@@ -2,6 +2,8 @@ package com.banthi.androiddemos.contactRecyclerView;
 
 import static android.util.Log.d;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;

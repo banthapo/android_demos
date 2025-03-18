@@ -1,35 +1,35 @@
-com.banthi.androiddemos.app-cardview-1.0.0-0 /Users/banthapo/.gradle/caches/transforms-3/05282c1f0a97c352c32a939bc2096859/transformed/cardview-1.0.0/res
-com.banthi.androiddemos.app-coordinatorlayout-1.1.0-1 /Users/banthapo/.gradle/caches/transforms-3/058e2b20403460f42e6113003ce03dc3/transformed/coordinatorlayout-1.1.0/res
-com.banthi.androiddemos.app-emoji2-1.3.0-2 /Users/banthapo/.gradle/caches/transforms-3/075a1e4bf452dc7356688b49c2e2d439/transformed/emoji2-1.3.0/res
-com.banthi.androiddemos.app-recyclerview-1.1.0-3 /Users/banthapo/.gradle/caches/transforms-3/1fad258d92024336cf18f282cac03aa0/transformed/recyclerview-1.1.0/res
-com.banthi.androiddemos.app-emoji2-views-helper-1.3.0-4 /Users/banthapo/.gradle/caches/transforms-3/25e1dc198c69c22ddfb1852923db9093/transformed/emoji2-views-helper-1.3.0/res
-com.banthi.androiddemos.app-appcompat-1.7.0-5 /Users/banthapo/.gradle/caches/transforms-3/44eb28a99e3b79dafed38baa81beb0c9/transformed/appcompat-1.7.0/res
-com.banthi.androiddemos.app-viewpager2-1.0.0-6 /Users/banthapo/.gradle/caches/transforms-3/581a9cb79a8f602c26f7a7528b0ac73d/transformed/viewpager2-1.0.0/res
-com.banthi.androiddemos.app-lifecycle-livedata-2.6.2-7 /Users/banthapo/.gradle/caches/transforms-3/673fbbad2341421d74914a8c9462e08a/transformed/lifecycle-livedata-2.6.2/res
-com.banthi.androiddemos.app-lifecycle-livedata-core-2.6.2-8 /Users/banthapo/.gradle/caches/transforms-3/6aa2b5ec8f37161cf956e5dcfbde2f2b/transformed/lifecycle-livedata-core-2.6.2/res
-com.banthi.androiddemos.app-appcompat-resources-1.7.0-9 /Users/banthapo/.gradle/caches/transforms-3/6e707be124c1831cb40732cd32bd5e99/transformed/appcompat-resources-1.7.0/res
-com.banthi.androiddemos.app-core-runtime-2.2.0-10 /Users/banthapo/.gradle/caches/transforms-3/6edf734ce6549cba42d2d87568ec4c5d/transformed/core-runtime-2.2.0/res
-com.banthi.androiddemos.app-constraintlayout-2.2.0-11 /Users/banthapo/.gradle/caches/transforms-3/7431eeeef556cedba53b291c66cce672/transformed/constraintlayout-2.2.0/res
-com.banthi.androiddemos.app-startup-runtime-1.1.1-12 /Users/banthapo/.gradle/caches/transforms-3/752f68e390483f1989f726856baf1dd5/transformed/startup-runtime-1.1.1/res
-com.banthi.androiddemos.app-lifecycle-runtime-2.6.2-13 /Users/banthapo/.gradle/caches/transforms-3/809d8d241bb28b1ee11cc4c2910e3d00/transformed/lifecycle-runtime-2.6.2/res
-com.banthi.androiddemos.app-savedstate-1.2.1-14 /Users/banthapo/.gradle/caches/transforms-3/8cc9538d07be5ee56813203a3bd5512d/transformed/savedstate-1.2.1/res
-com.banthi.androiddemos.app-lifecycle-process-2.6.2-15 /Users/banthapo/.gradle/caches/transforms-3/913e343ad0c263176a97b028123e0c35/transformed/lifecycle-process-2.6.2/res
-com.banthi.androiddemos.app-glide-4.16.0-16 /Users/banthapo/.gradle/caches/transforms-3/92acfbf49b5c550e596b4444f2540918/transformed/glide-4.16.0/res
-com.banthi.androiddemos.app-fragment-1.5.4-17 /Users/banthapo/.gradle/caches/transforms-3/9fbf19638c84982d6a269c43e4bb7360/transformed/fragment-1.5.4/res
-com.banthi.androiddemos.app-activity-1.8.0-18 /Users/banthapo/.gradle/caches/transforms-3/a8f0d931ce7ca0ad2f940141e9e4e29d/transformed/activity-1.8.0/res
-com.banthi.androiddemos.app-annotation-experimental-1.4.0-19 /Users/banthapo/.gradle/caches/transforms-3/ae7b7e341a574aedeb359b8356eae4a0/transformed/annotation-experimental-1.4.0/res
-com.banthi.androiddemos.app-profileinstaller-1.4.0-20 /Users/banthapo/.gradle/caches/transforms-3/b1007faa32e839d9ce65cd5ba4c48cb5/transformed/profileinstaller-1.4.0/res
-com.banthi.androiddemos.app-core-ktx-1.13.0-21 /Users/banthapo/.gradle/caches/transforms-3/c4ceceb7f4335c8744adb49f84e97031/transformed/core-ktx-1.13.0/res
-com.banthi.androiddemos.app-core-1.13.0-22 /Users/banthapo/.gradle/caches/transforms-3/d32a8c30d7be8f73034961ce64374894/transformed/core-1.13.0/res
-com.banthi.androiddemos.app-lifecycle-viewmodel-savedstate-2.6.2-23 /Users/banthapo/.gradle/caches/transforms-3/da101a64ffb312eb40f1ce9372819c15/transformed/lifecycle-viewmodel-savedstate-2.6.2/res
-com.banthi.androiddemos.app-transition-1.5.0-24 /Users/banthapo/.gradle/caches/transforms-3/e2b3ad3fe29089dc1ebff0f5999f2384/transformed/transition-1.5.0/res
-com.banthi.androiddemos.app-drawerlayout-1.1.1-25 /Users/banthapo/.gradle/caches/transforms-3/e2d2d3c4dd62635dbea352ab171561e5/transformed/drawerlayout-1.1.1/res
-com.banthi.androiddemos.app-material-1.12.0-26 /Users/banthapo/.gradle/caches/transforms-3/e8f933764c521e6275639cfb1b008815/transformed/material-1.12.0/res
-com.banthi.androiddemos.app-lifecycle-viewmodel-2.6.2-27 /Users/banthapo/.gradle/caches/transforms-3/f6c89efccee68d4203c2199646e1b5b6/transformed/lifecycle-viewmodel-2.6.2/res
-com.banthi.androiddemos.app-pngs-28 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/build/generated/res/pngs/debug
-com.banthi.androiddemos.app-resValues-29 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/build/generated/res/resValues/debug
-com.banthi.androiddemos.app-packageDebugResources-30 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
-com.banthi.androiddemos.app-packageDebugResources-31 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
-com.banthi.androiddemos.app-merged_res-32 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/build/intermediates/merged_res/debug
-com.banthi.androiddemos.app-debug-33 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/debug/res
-com.banthi.androiddemos.app-main-34 /Users/banthapo/AndroidStudioProjects/AndroidDemos/app/src/main/res
+com.banthi.androiddemos.app-lifecycle-livedata-core-2.6.2-0 C:\Users\HP\.gradle\caches\transforms-3\046025a0e609d8a7bd9f62ab3e225069\transformed\lifecycle-livedata-core-2.6.2\res
+com.banthi.androiddemos.app-core-runtime-2.2.0-1 C:\Users\HP\.gradle\caches\transforms-3\1313f879eb7f75162b3a1623143f18fa\transformed\core-runtime-2.2.0\res
+com.banthi.androiddemos.app-core-ktx-1.13.0-2 C:\Users\HP\.gradle\caches\transforms-3\2a2734cd3e964a060955fec52f481e39\transformed\core-ktx-1.13.0\res
+com.banthi.androiddemos.app-fragment-1.5.4-3 C:\Users\HP\.gradle\caches\transforms-3\2e4b6842db6f658ee06db4b1a985e742\transformed\fragment-1.5.4\res
+com.banthi.androiddemos.app-savedstate-1.2.1-4 C:\Users\HP\.gradle\caches\transforms-3\30c8d8663b30034441c548b2d0cd313b\transformed\savedstate-1.2.1\res
+com.banthi.androiddemos.app-activity-1.8.0-5 C:\Users\HP\.gradle\caches\transforms-3\37df6be4e81c9f215eec8421b1eacec1\transformed\activity-1.8.0\res
+com.banthi.androiddemos.app-constraintlayout-2.2.1-6 C:\Users\HP\.gradle\caches\transforms-3\3e01015a5853f1827885e170ca5802ce\transformed\constraintlayout-2.2.1\res
+com.banthi.androiddemos.app-lifecycle-livedata-2.6.2-7 C:\Users\HP\.gradle\caches\transforms-3\43e5ea605be53d594a6ada52814fc511\transformed\lifecycle-livedata-2.6.2\res
+com.banthi.androiddemos.app-lifecycle-runtime-2.6.2-8 C:\Users\HP\.gradle\caches\transforms-3\470e013049b0d8c7cd5f8263de620044\transformed\lifecycle-runtime-2.6.2\res
+com.banthi.androiddemos.app-emoji2-views-helper-1.3.0-9 C:\Users\HP\.gradle\caches\transforms-3\66e45016eb5a5701f7d46d880c606bca\transformed\emoji2-views-helper-1.3.0\res
+com.banthi.androiddemos.app-annotation-experimental-1.4.0-10 C:\Users\HP\.gradle\caches\transforms-3\75c34abe9481e1a8ca2dc19a565c8903\transformed\annotation-experimental-1.4.0\res
+com.banthi.androiddemos.app-lifecycle-viewmodel-savedstate-2.6.2-11 C:\Users\HP\.gradle\caches\transforms-3\78125bcb21262af21b5dc66337fb7527\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.banthi.androiddemos.app-appcompat-1.7.0-12 C:\Users\HP\.gradle\caches\transforms-3\7855aafd0a6b681749ceb57e6ef33939\transformed\appcompat-1.7.0\res
+com.banthi.androiddemos.app-appcompat-resources-1.7.0-13 C:\Users\HP\.gradle\caches\transforms-3\8e3ece052b8a4ee45ccb59d7439f120d\transformed\appcompat-resources-1.7.0\res
+com.banthi.androiddemos.app-profileinstaller-1.4.0-14 C:\Users\HP\.gradle\caches\transforms-3\986bc67c10c10945636f53c935423691\transformed\profileinstaller-1.4.0\res
+com.banthi.androiddemos.app-material-1.12.0-15 C:\Users\HP\.gradle\caches\transforms-3\a6bbec8dec6557d050657cbdd9824452\transformed\material-1.12.0\res
+com.banthi.androiddemos.app-lifecycle-viewmodel-2.6.2-16 C:\Users\HP\.gradle\caches\transforms-3\b6fffe5bb5f13817156abb7d626523c0\transformed\lifecycle-viewmodel-2.6.2\res
+com.banthi.androiddemos.app-lifecycle-process-2.6.2-17 C:\Users\HP\.gradle\caches\transforms-3\bcd78cec5716f1f695811158dc3dd481\transformed\lifecycle-process-2.6.2\res
+com.banthi.androiddemos.app-core-1.13.0-18 C:\Users\HP\.gradle\caches\transforms-3\c2d459ee69166d31a608cca52b235ff4\transformed\core-1.13.0\res
+com.banthi.androiddemos.app-coordinatorlayout-1.1.0-19 C:\Users\HP\.gradle\caches\transforms-3\c7b685f9f94942959736622c32a695d7\transformed\coordinatorlayout-1.1.0\res
+com.banthi.androiddemos.app-recyclerview-1.1.0-20 C:\Users\HP\.gradle\caches\transforms-3\d77ae723cc1f87db692f53cd78ab873c\transformed\recyclerview-1.1.0\res
+com.banthi.androiddemos.app-drawerlayout-1.1.1-21 C:\Users\HP\.gradle\caches\transforms-3\d957f922fbf8dbeef14ad6b5a52e219f\transformed\drawerlayout-1.1.1\res
+com.banthi.androiddemos.app-startup-runtime-1.1.1-22 C:\Users\HP\.gradle\caches\transforms-3\def9ea90f61c6b9d89019dc408312628\transformed\startup-runtime-1.1.1\res
+com.banthi.androiddemos.app-viewpager2-1.0.0-23 C:\Users\HP\.gradle\caches\transforms-3\df68b27a0ffcbcbca44e5a6322c12ced\transformed\viewpager2-1.0.0\res
+com.banthi.androiddemos.app-transition-1.5.0-24 C:\Users\HP\.gradle\caches\transforms-3\e628b2af27dcf50f49bcfa0850e55078\transformed\transition-1.5.0\res
+com.banthi.androiddemos.app-cardview-1.0.0-25 C:\Users\HP\.gradle\caches\transforms-3\e86d8dcc01ec7d646feb6e1cedd2d166\transformed\cardview-1.0.0\res
+com.banthi.androiddemos.app-emoji2-1.3.0-26 C:\Users\HP\.gradle\caches\transforms-3\f2ba8c172c9972f2b3bcce2beaa827e2\transformed\emoji2-1.3.0\res
+com.banthi.androiddemos.app-glide-4.16.0-27 C:\Users\HP\.gradle\caches\transforms-3\f4f8506e8b4d3fa47e407b91cadaea2d\transformed\glide-4.16.0\res
+com.banthi.androiddemos.app-pngs-28 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\build\generated\res\pngs\debug
+com.banthi.androiddemos.app-resValues-29 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\build\generated\res\resValues\debug
+com.banthi.androiddemos.app-packageDebugResources-30 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.banthi.androiddemos.app-packageDebugResources-31 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.banthi.androiddemos.app-merged_res-32 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\build\intermediates\merged_res\debug
+com.banthi.androiddemos.app-debug-33 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\src\debug\res
+com.banthi.androiddemos.app-main-34 C:\Users\HP\Documents\Lonje - Projects\android_demos\app\src\main\res

@@ -20,7 +20,7 @@ public class MaterialDesign1 extends AppCompatActivity implements View.OnClickLi
         setContentView(R.layout.activity_material_design1);
 
         cancel = findViewById(R.id.cancelBtn);
-        nextBtn = findViewById(R.id.nextBtn);
+        nextBtn = findViewById(R.id.finishBtn);
         prevBtn = findViewById(R.id.prevBtn);
         phoneBtn = findViewById(R.id.phoneBtn);
 
@@ -37,9 +37,12 @@ public class MaterialDesign1 extends AppCompatActivity implements View.OnClickLi
             Toast.makeText(this, "Phone Clicked", Toast.LENGTH_SHORT).show();
         }
         if (v.getId() == R.id.prevBtn) {
-            Intent intent = new Intent(this, XMLFiles.class);
+            Intent intent = new Intent(this, GlideDetour.class);
             startActivity(intent);
-        }   if (v.getId() == R.id.nextBtn) {
+        }
+        if (v.getId() == R.id.cancelBtn) {
+            Toast.makeText(this, "Cancel Clicked", Toast.LENGTH_LONG).show();
+        }   if (v.getId() == R.id.finishBtn) {
             Intent intent = new Intent(this, SnackBar.class);
             startActivity(intent);
         }

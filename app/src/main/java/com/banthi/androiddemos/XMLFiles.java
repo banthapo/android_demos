@@ -13,9 +13,9 @@ import android.widget.Toast;
 public class XMLFiles extends AppCompatActivity {
     private TextView title ;
     private TextView greeting ;
-    private Button nextBtn;
+    private Button finishBtn;
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint({"MissingInflatedId", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,12 +24,13 @@ public class XMLFiles extends AppCompatActivity {
         String greet = getString(R.string.greeting);
         Toast.makeText(this, greet + " Lonje", Toast.LENGTH_SHORT).show();
 
-        nextBtn = findViewById(R.id.nextBtn);
-        nextBtn.setOnClickListener(new View.OnClickListener() {
+        finishBtn = findViewById(R.id.finishBtn);
+        finishBtn.setText("Finish");
+        finishBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(XMLFiles.this, MaterialDesign1.class);
-                startActivity(intent);
+                finish();
+                isDestroyed();
             }
         });
     }

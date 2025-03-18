@@ -29,6 +29,13 @@
     <string name="font_family_title">Using Font Family</string>
     <string name="second_family">Second Family</string>
     <string name="third_family">Third Family</string>
+    <string name="change">Change</string>
+    <string name="list_view">List View</string>
+    <string name="spinner">Spinner</string>
+    <string name="show_card">Show Card</string>
+    <string name="relative_card">Relative Card</string>
+    <string name="show_normal_snackbar">Show normal snackbar</string>
+    <string name="show_action_snackbar">Show action snackbar</string>
     <string-array name="rate">
         <item>worse</item>
         <item>bad</item>

@@ -1,20 +1,17 @@
 package com.banthi.androiddemos;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class EventsByImplementation extends AppCompatActivity implements View.OnClickListener, View.OnLongClickListener {
     private TextView display;
-    private EditText text;
-    private Button grabBtn;
 
 
     @Override
@@ -23,21 +20,18 @@ public class EventsByImplementation extends AppCompatActivity implements View.On
         setContentView(R.layout.activity_events_by_implementation);
 
         display = findViewById(R.id.textDisplay);
-        grabBtn = findViewById(R.id.grabTxtBtn);
-        text = findViewById(R.id.text);
+        Button grabBtn = findViewById(R.id.grabTxtBtn);
+        Button nextBtn = findViewById(R.id.finishBtn);
+//        Button grabBtn = findViewById(R.id.grabTxtBtn);
+        EditText editText = findViewById(R.id.text);
 
         grabBtn.setOnClickListener(this);
+        nextBtn.setOnClickListener(this);
         display.setOnClickListener(this);
-        text.setOnClickListener(this);
+        editText.setOnClickListener(this);
 
         grabBtn.setOnLongClickListener(this);
-//        grabBtn.setOnLongClickListener(new View.OnLongClickListener() {
-//            @Override
-//            public boolean onLongClick(View v) {
-//                Toast.makeText(EventsByImplementation.this, "Long press:: text from main class", Toast.LENGTH_LONG).show();
-//                return true;
-//            }
-//        });
+
     }
 
 
@@ -51,6 +45,10 @@ public class EventsByImplementation extends AppCompatActivity implements View.On
         }
         if (v.getId() == R.id.text) {
             handleInputClick();
+        }
+        if (v.getId() == R.id.finishBtn) {
+            Intent i = new Intent(this, Checkbox.class);
+            startActivity(i);
         }
     }
 
@@ -91,4 +89,6 @@ public class EventsByImplementation extends AppCompatActivity implements View.On
 
         return true;
     }
+
+
 }

@@ -31,7 +31,7 @@ public class Checkbox extends AppCompatActivity implements View.OnClickListener,
         bmwCheckbox = findViewById(R.id.bmw);
         benzCheckbox = findViewById(R.id.benz);
         hundaiCheckbox = findViewById(R.id.hundai);
-        nextBtn = findViewById(R.id.nextBtn);
+        nextBtn = findViewById(R.id.finishBtn);
 
         bmwCheckbox.setOnCheckedChangeListener(this);
         benzCheckbox.setOnCheckedChangeListener(this);
@@ -66,7 +66,7 @@ public class Checkbox extends AppCompatActivity implements View.OnClickListener,
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.nextBtn) {
+        if (v.getId() == R.id.finishBtn) {
             Intent intent = new Intent(Checkbox.this, RadioBtn.class);
             startActivity(intent);
         }

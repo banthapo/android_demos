@@ -44,4 +44,15 @@
         android:textColorHint="@color/grey"
         android:textSize="24sp" />
 
+    <Button
+        android:id="@+id/finishBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/light_green"
+        android:textSize="22sp"
+        android:layout_below="@+id/textDisplay"/>
+
 </RelativeLayout>

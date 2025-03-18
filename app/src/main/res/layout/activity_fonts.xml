@@ -1,160 +1,184 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fonts">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:padding="10dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
-        <LinearLayout
-            android:id="@+id/font_title_button"
-            android:layout_width="wrap_content"
+        <RelativeLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:orientation="horizontal">
+            android:layout_marginTop="10dp"
+            android:padding="10dp">
 
-            <TextView
-                android:id="@+id/font_title"
+            <LinearLayout
+                android:id="@+id/font_title_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:fontFamily="@font/falling_sky"
-                android:text="@string/android_fonts"
-                android:textColor="@color/dark_green"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/change_btn"
+                <TextView
+                    android:id="@+id/font_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/falling_sky"
+                    android:text="@string/android_fonts"
+                    android:textColor="@color/dark_green"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/change_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="@string/change" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/first_text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="10dp"
-                android:text="Change" />
-        </LinearLayout>
+                android:layout_below="@+id/font_title_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/droid_serif_italic"
+                android:text="@string/first_text"
+                android:textColor="@color/dark_green"
+                android:textSize="24sp" />
 
+            <TextView
+                android:id="@+id/sec_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/droid_serif_bold_italic"
+                android:text="@string/second_text"
+                android:textColor="@color/dark_green"
+                android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/first_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/font_title_button"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/droid_serif_italic"
-            android:text="@string/first_text"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp" />
+            <TextView
+                android:id="@+id/third_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sec_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-black"
+                android:text="@string/third_text"
+                android:textColor="@color/dark_green"
+                android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/sec_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/first_text"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/droid_serif_bold_italic"
-            android:text="@string/second_text"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp" />
+            <TextView
+                android:id="@+id/forth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/cherish"
+                android:text="@string/forth_text"
+                android:textColor="@color/dark_green"
+                android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/third_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/sec_text"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:fontFamily="sans-serif-black"
-            android:text="@string/third_text"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp" />
+            <TextView
+                android:id="@+id/fifth_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/forth_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:text="@string/fifth_text"
+                android:textColor="@color/dark_green"
+                android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/forth_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/third_text"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/cherish"
-            android:text="@string/forth_text"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp" />
+            <TextView
+                android:id="@+id/font_family_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fifth_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/droid_serif_family"
+                android:text="@string/font_family_title"
+                android:textColor="@color/brown"
+                android:textSize="24sp"
+                android:textStyle="bold"
 
-        <TextView
-            android:id="@+id/fifth_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/forth_text"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:fontFamily="monospace"
-            android:text="@string/fifth_text"
-            android:textColor="@color/dark_green"
-            android:textSize="24sp" />
+                />
 
-        <TextView
-            android:id="@+id/font_family_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/fifth_text"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/droid_serif_family"
-            android:text="@string/font_family_title"
-            android:textColor="@color/brown"
-            android:textSize="24sp"
-            android:textStyle="bold"
+            <TextView
+                android:id="@+id/first_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/font_family_title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/droid_serif_family"
+                android:text="@string/first_family"
+                android:textColor="@color/brown"
+                android:textSize="24sp"
+                android:textStyle="normal"
 
-            />
+                />
 
-        <TextView
-            android:id="@+id/first_family"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/font_family_title"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/droid_serif_family"
-            android:text="@string/first_family"
-            android:textColor="@color/brown"
-            android:textSize="24sp"
-            android:textStyle="normal"
+            <TextView
+                android:id="@+id/sec_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/first_family"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/droid_serif_family"
+                android:text="@string/second_family"
+                android:textColor="@color/brown"
+                android:textSize="24sp"
+                android:textStyle="bold|italic" />
 
-            />
+            <TextView
+                android:id="@+id/third_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sec_family"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="150dp"
+                android:fontFamily="@font/droid_serif_family"
+                android:text="@string/third_family"
+                android:textColor="@color/brown"
+                android:textSize="24sp"
+                android:textStyle="italic" />
 
-        <TextView
-            android:id="@+id/sec_family"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/first_family"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:fontFamily="@font/droid_serif_family"
-            android:text="@string/second_family"
-            android:textColor="@color/brown"
-            android:textSize="24sp"
-            android:textStyle="bold|italic" />
+        </RelativeLayout>
 
-        <TextView
-            android:id="@+id/third_family"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/sec_family"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="150dp"
-            android:fontFamily="@font/droid_serif_family"
-            android:text="@string/third_family"
-            android:textColor="@color/brown"
-            android:textSize="24sp"
-            android:textStyle="italic" />
-    </RelativeLayout>
-</ScrollView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/finishBtn"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/next"
+        android:textSize="20sp"
+        android:textColor="@color/brown"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
